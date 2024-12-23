@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#defaultLayout {
+  display: flex;
+}
+
+#defaultLayout .content {
+  flex: 1;
+}
+
+#defaultLayout .content .modal {
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+}
+
+#defaultLayout .content .sidebar .active {
+  border-right: 5px;
+  border-color: rgb(99 102 241);
+  font-weight: bold;
+  color: rgb(99 102 241);
+}
