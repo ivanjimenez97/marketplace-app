@@ -14,7 +14,7 @@ export default function GuestLayout() {
   return (
     <div
       id="guestLayout"
-      className="grid justify-items-center content-center h-screen px-3"
+      className="grid justify-items-center content-center min-h-screen px-3"
     >
       <Outlet />
     </div>
